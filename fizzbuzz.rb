@@ -1,6 +1,6 @@
 
-def fizzbuzz(number)
-  if number % 3 == 0
+def fizzbuzz(int)
+  if int % 3 == 0
     return "Fizz"
   if number % 5 == 0
     return "Buzz"
