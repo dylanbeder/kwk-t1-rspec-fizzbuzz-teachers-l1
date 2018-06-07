@@ -6,4 +6,6 @@ def fizzbuzz(number)
     return "Buzz"
   number % 15 == 0 
     return "FizzBuzz"
+  number % 4 == 0 
+    return nil
 end
